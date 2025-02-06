@@ -3,6 +3,9 @@
 
 This repository contains the files for a dynamic, multi-page e-learning website designed to provide an engaging and interactive online learning experience. The website includes various pages, such as the home page, course pages, login and sign-up forms, and more. Additionally, the website supports **Dark Mode**, **Light Mode**, and **Glass Mode**, allowing users to customize their viewing experience.
 
+![Home Page](img/main%20page.png)
+
+
 ## Features
 
 - **Responsive Design**: The website is designed to be fully responsive, ensuring a smooth user experience on all devices.
@@ -14,40 +17,6 @@ This repository contains the files for a dynamic, multi-page e-learning website 
   - **Light Mode**: A traditional light color scheme for bright environments.
   - **Glass Mode**: A translucent, "frosted glass" effect for a modern and sleek look.
 - **Color Customization**: Users can change the theme color for a personalized experience.
-
-## Pages
-
-1. **Home Page** (index.html)  
-   The landing page for the website, showcasing available courses, and providing navigation to other sections.
-
-2. **Courses Page** (courses.html)  
-   A list of available courses for users to explore. Each course is linked to its detailed page.
-
-3. **Course Details Page** (details.html)  
-   A detailed page about a specific course, including course content, instructors, and other relevant information.
-
-4. **Login Page** (log-in.html and log-in.php)  
-   A login page allowing users to authenticate and access their profiles or courses.
-
-5. **Sign-Up Page** (sign-up.html and sign-up.php)  
-   A registration page for new users to create an account on the platform.
-
-6. **Contact Page** (contact.html)  
-   A page for users to contact the website administrators with any inquiries.
-
-7. **Miscellaneous**  
-   Includes stylesheets (css), images (img), JavaScript files (js), and other assets such as web fonts and videos.
-
-## Directory Structure
-
-- **.vscode/**: Configuration settings for Visual Studio Code.
-- **css/**: Stylesheets used for the website design and layout.
-- **img/**: Images used throughout the website.
-- **js/**: JavaScript files for adding interactivity and dynamic content.
-- **video/**: Video files included for course content or tutorials.
-- **webfonts/**: Custom web fonts used in the website's design.
-- **config.php**: PHP configuration file for server-side operations.
-- **HTML Files**: Various HTML files representing different pages such as `index.html`, `courses.html`, `log-in.html`, etc.
 
 ## Installation
 
