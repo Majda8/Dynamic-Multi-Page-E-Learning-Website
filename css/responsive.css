@@ -1,0 +1,314 @@
+@media(max-width: 1199px){
+.container{
+    max-width: 100%;
+    --bs-getter-x:30px;
+}
+}
+
+@media(max-width: 991px){
+    .header{
+        padding: 12px 0;
+    }
+    .hheader h1{
+        font-size: 20px;
+    }
+    .hheader .img-boxx{
+        max-width: 1200px;
+    }
+.header-backdrop,
+.header-close-btn,
+.header-hamburger-btn{
+    display: block;
+}
+.header-hamburger-btn{
+    height: 34px;
+    width: 40px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+.header-hamburger-btn span{
+    display: block;
+    height: 2px;
+    width: 24px;
+    background-color: var(--black-90);
+    position: relative;
+    margin: auto;
+}
+.header-hamburger-btn span::before,
+.header-hamburger-btn span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-90);
+}
+.header-hamburger-btn span::before{
+    top: -7px;
+}
+.header-hamburger-btn span::after{
+    top: 7px;
+}
+.header-close-btn{
+    height: 40px;
+    width: 40px;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: var(--WHITE);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-menu{
+   position: fixed;
+   width: 300px;
+   height: 100vh;
+   top: 0;
+   right: -300px;
+   z-index: 1000;
+   padding: 70px 0 50px;
+   transition: all 0.5s ease;
+   background-color: var(--white);
+   box-shadow: var(--shadow);
+   overflow: auto;
+   visibility: hidden;
+}
+.header-menu.open{
+    right: 0;
+    visibility: visible;
+}
+.header .menu-item{
+    display: block;
+    margin: 0;
+}
+.header .menu-item > a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--border-color-1);
+}
+.header .menu-item:first-child > a{
+    border-top: 1px solid var(--border-color-1);
+}
+
+.header .sub-menu{
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+    top: auto;
+    transform: translateY(0);
+    padding: 0;
+    border-radius: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+.header .sub-menu-item a{
+    padding: 12px 45px;
+    border-bottom: 1px solid var(--border-color-1);
+}
+.header-backdrop{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    background-color: var(--white);
+}
+.header-backdrop.active{
+    visibility: visible;
+    opacity: 0.8;
+}
+.circular-img{
+    max-width: 280px;
+}
+.circular-img img{
+    max-width: 240px;
+}
+.circular-img-circle{
+    height: 280px;
+    width: 280px;
+}
+.banner-text h1{
+    font-size: 35px;
+}
+.section-title .sub-title{
+    font-size: 30px;
+}
+.course-sidebar{
+margin-top: 30px;
+}
+.container-box{
+    margin-bottom: 15px;
+}
+.course-instructor .img-box img{
+    width: 100px;
+}
+.course-instructor .details-wrap{
+    margin-bottom: 15px;
+}
+}
+@media(max-width: 767px){
+.container{
+    --bs-gutter-x:15px
+}
+.box{
+    padding: 20px 15px;
+}
+.boxx{
+    padding: 20px 15px;
+}
+.banner-text h1{
+    font-size: 22px;
+}
+.banner-text p{
+    font-size: 25px;
+
+}
+.section-title h3,
+.banner-text h2{
+    font-size: 18px;
+}
+.section-title .sub-title{
+    font-size: 25px;
+}
+.course-header h2{
+    font-size: 25px;
+}
+.course-curriculm .accordion-button span{
+    position: relative;
+    right: auto;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 8px;
+}
+.course-curriculm .accordion-button{
+    padding-right: 15px;
+}
+.course-curriculm ul li span{
+    font-size: 12px;
+    position: relative;
+    display: block;
+    margin-top: 5px;
+}
+.course-curriculm ul li{
+    padding: 0 0 0 20px;
+}
+.rating-box{
+    margin-bottom: 15px;
+}
+.rating-summary{
+    margin-bottom: 15px;
+}
+}
+@media(max-width: 575px){
+.circular-img{
+    max-width: 230px;
+}
+.circular-img img{
+    max-width: 230px;
+}
+.circular-img-circle{
+    width: 230px;
+    height: 230px;
+}
+.footer-item{
+    text-align: center;
+}
+.footer-item ul li{
+    font-size: 20px;
+}
+.footer-item .footer-logo{
+    font-size: 38px;
+}
+.header-logo a{
+    font-size: 25px;
+}
+.header-logo .logo-image{
+    max-width: 50px;
+}
+.modal-dialog{
+    margin: 8px 15px;
+}
+.banner-text h1{
+    font-size: 14px;
+}
+.banner-text p{
+    font-size: 18px;
+
+}
+.banner-text h2{
+    font-size: 12px;
+}
+.heading h2{
+    text-align: center;
+}
+.hheader {
+    padding: 20px; 
+}
+  .container {
+    padding: 10px; 
+  }
+
+  .img-boxx {
+    margin-bottom: 20px; 
+  }
+
+  .btn-primary {
+    font-size: 14px; 
+  }
+  .banner-text {
+    text-align: center; /* Centrer le texte */
+    padding: 20px; /* Ajoutez des marges pour un meilleur espacement */
+  }
+
+  .banner-text h2 {
+    font-size: 17px; /* Réduisez la taille du titre */
+  }
+
+  .banner-text h1 {
+    font-size: 19px; /* Réduisez la taille du titre principal */
+  }
+
+  .banner-text p {
+    font-size: 14px; /* Réduisez la taille du paragraphe */
+  }
+  .forms {
+    padding: 20px; /* Ajoutez des marges pour un meilleur espacement */
+    background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent */
+    border-radius: 10px; /* Coins arrondis */
+    max-width: 800px; /* Largeur maximale du formulaire */
+    max-height: 800px; /* Hauteur maximale du formulaire */
+    overflow: auto;
+    margin-top: 89px; /* Ajoutez un défilement si nécessaire */
+  }
+
+  .forms h5 {
+    font-size: 14px; /* Ajustez la taille du titre */
+  }
+
+  .inputs input,
+  .inputs textarea {
+    width: 100%; /* Définissez la largeur des champs sur 100% */
+    font-size: 12px; /* Réduisez la taille du texte des champs */
+    margin-bottom: 10px; /* Ajoutez un peu d'espacement entre les champs */
+  }
+  
+
+  .bouton {
+    text-align: left; /* Alignez le bouton à gauche */
+  }
+
+  .bouton button {
+    font-size: 12px; /* Ajustez la taille du bouton */
+  }
+}

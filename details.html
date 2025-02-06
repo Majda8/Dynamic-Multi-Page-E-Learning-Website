@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Nous contacter </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" class="js-glass-style" href="css/glass.css"  disabled>
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+  <link rel="stylesheet" href="boxicons.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <!--pagte loader start-->
+  <div class="page-loader js-page-loader">
+    <div></div>
+  </div>
+    <!--pagte loader end-->
+    
+<div class="main-wrapper">
+    <header class="header" id="main-header">
+        <div class="container">
+          <div class="header-main d-flex justify-content-between align-items-center">
+            <div class="header-logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="MaTech Logo" class="logo-image img-fluid">
+                <span>Ma</span>Tech
+              </a>
+            </div>
+            
+            <button type="button" class="header-hamburger-btn js-header-menu-toggler d-lg-none">
+              <span></span>
+            </button>
+            <div class="header-backdrop js-header-backdrop"></div>
+            <nav class="header-menu js-header-menu d-lg-flex">
+              <button type="button" class="header-close-btn js-header-menu-toggler d-lg-none">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item menu-item-has-children"><a href="#" class="js-toggle-sub-menu">Courses<i class="fas fa-chevron-down"></i></a>
+                  <ul class="sub-menu js-sub-menu">
+                    <li class="sub-menu-item"><a href="courses.html">Online courses</a></li>
+                    <li class="sub-menu-item"><a href="face.html">Face to face</a></li>
+                  </ul>
+                </li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                        <li class="menu-item menu-item-has-children"><a href="#" class="js-toggle-sub-menu">Account<i class="fas fa-chevron-down"></i></a>
+                          <ul class="sub-menu js-sub-menu">
+                            <li class="sub-menu-item"><a href="log-in.php">Log In</a></li>
+                            <li class="sub-menu-item"><a href="sign-up.php">Sign Up</a></li>
+                          </ul>
+                        </li> 
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="breadcrumb-nav">
+        <div class="container">
+          <nav aria-label="breadcrumb mb-0">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="courses.html">Cours</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Details sur le cours</li>
+
+            </ol>
+          </nav>
+        </div>
+        </div>
+        <section class="course-details section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="course-header boxx">
+                            <h2 class="text-capitalize">Java pour les débutants</h2>
+                            <div class="rating">
+                                <span class="average-rating">(4.5)</span>
+                                <span class="average-stars">
+                                    <i class="fas fa-stars"></i>
+                                    <i class="fas fa-stars"></i>
+                                    <i class="fas fa-stars"></i>
+                                    <i class="fas fa-stars"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="reviews">(230 évaluations)</span>
+                            </div>
+                            <ul>
+                                <li>Étudiants inscrits - <span>22200</span></li>
+                                <li>Créé par - <span><a href="#">Nabil Sabia</a></span></li>
+                                <li>Dernière mise à jour - <span>10/10/2023</span></li>
+                                <li>Langue - <span>Français</span></li>
+                            </ul>
+                        </div>
+                <nav class="course-tabs">
+                    <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+                      <button class="nav-link active" id="coursee-curriculum-tab" data-bs-toggle="tab" data-bs-target="#coursee-curriculum" type="button" role="tab" aria-controls="coursee-curriculum" aria-selected="true">Programme du Cours</button>
+                      <button class="nav-link" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="false">description</button>
+                      <button class="nav-link" id="instructor-tab" data-bs-toggle="tab" data-bs-target="#instructor" type="button" role="tab" aria-controls="instructor" aria-selected="false">Instructeur</button>
+                      <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Les commentaires</button>
+
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="coursee-curriculum" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="course-curriculm box">
+                            <h3 class="text-capitalize mb-4">Programme</h3>
+                            <div class="accordian" id="accordian">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                            Bases du Langage <span> 4 leçons | 20 min </span>
+                                        </button>
+                                    </h2>
+                                
+                                    <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordion">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>
+                                                    <i class="fas fa-play-circle"></i>
+                                                    Structure lexicale
+                                                    <span>06:00</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-play-circle"></i>
+                                                    Valeurs
+                                                    <span>06:00</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-play-circle"></i>
+                                                    Types
+                                                    <span>06:00</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-play-circle"></i>
+                                                    Variables
+                                                    <span>06:00</span>
+                                                </li>
+                                            </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-2">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                        Types<span> 3 leçons | 2h 14min</span>                                      </button>
+                                    </h2>
+                                    <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordion">
+                                      <div class="accordion-body">
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Chaînes de caractères
+                                                <span>05:00</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Booléens
+                                                <span>03:03</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Null et indéfini
+                                                <span>02:11</span>
+                                            </li>
+                                           
+                                           </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-3">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                        Structures de contrôle <span> 3 leçons | 56 min</span>
+                                    </button>
+                                    </h2>
+                                    <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#accordion">
+                                      <div class="accordion-body">
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                If / else
+                                                <span>12:30</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                               Switch
+                                                <span>08:17</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Loops
+                                                <span>06:20</span>
+                                            </li>
+                                            
+                                           </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-4">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                                        Fonction <span>2 leçons | 4h 40min</span>
+                                      </button>
+                                    </h2>
+                                    <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#accordion">
+                                      <div class="accordion-body">
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Fonction fléchée
+                                                <span>16:02</span>
+                                            </li>
+                                            
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Paramètres
+                                                <span>22:34</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Valeur de retour
+                                                <span>06:43</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-play-circle"></i>
+                                                Récursion
+                                                <span>06:00</span>
+                                            </li>
+                                            
+                                           </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">
+                        <div class="course-description box">
+
+                <h3 class="text-capitalize mb-4">description</h3>
+                <p>Que vous ayez une expérience limitée en programmation ou que vous soyez totalement nouveau dans le domaine, ce cours vous guidera étape par étape à travers les concepts clés de la programmation en Java. À la fin de ce cours, vous serez en mesure de créer des programmes simples et de comprendre les bases de la programmation orientée objet.</p>
+                <h4>Pour qui ce cours est-il conçu</h4>
+                <p>Il est parfait pour les débutants qui cherchent à apprendre les bases de la programmation en utilisant Java comme point de départ. Que vous ayez des aspirations dans le développement d'applications, la création de jeux ou même la programmation web, ce cours vous aidera à développer les compétences nécessaires pour prendre vos premiers pas dans le monde passionnant de la programmation.</p>
+                <h4>Pourquoi devriez-vous suivre ce cours</h4>
+                <p>Ce cours vous permettra de maîtriser les fondamentaux de la programmation en Java, ouvrant ainsi la porte à un large éventail d'opportunités dans le développement logiciel. Grâce à des leçons claires et interactives, vous serez en mesure de créer des programmes simples et d'acquérir une compréhension solide des concepts de base de la programmation orientée objet. </p>  
+            </div>
+                    </div>
+                    <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+<div class="course-instructor box">
+    <h3 class="mb-3 text-capitalize">Instructeur</h3>
+    <div class="instructor-details">
+        <div class="details-wrap d-flex align-items-center flex-wrap">
+        <div class="left-box me-4">
+            <div class="img-box">
+                <img src="img/ostad.jpg" class="image-rounded" alt="Professeur">
+            </div>
+        </div>
+        <div class="right-box">
+            <h4>Nabil Sbai <span>(web developer)</span></h4>
+            <ul>
+                <li><i class="fas fa-star"></i>4.1 Rating</li>
+                <li><i class="fas fa-play-circle"></i>10 cours</li>
+                <li><i class="fas fa-certificate"></i>3000 vues</li>
+            </ul>
+        </div>
+    </div>
+    <div class="text">
+        <p class="mb-0">Nabil Sbai, est un développeur web passionné avec une vaste expérience dans le domaine. Fort de ses connaissances approfondies en développement web, il est déterminé à vous guider à travers les complexités de la programmation et à vous aider à construire des compétences solides. Grâce à son expertise, vous découvrirez les meilleures pratiques, des astuces pratiques et des conseils concrets pour exceller dans le développement web. Nabil est là pour vous accompagner à chaque étape de votre parcours d'apprentissage et pour répondre à toutes vos questions afin de vous aider à atteindre vos objectifs.</p>
+    </div>
+</div>
+</div>
+                    </div>
+                    <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+<div class="course-reviews box">
+    <div class="rating-summary">
+        <h3 class="mb-4 text-capitalize">Retours des étudiants</h3>
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-center justify-content-center text-center">
+                <div class="rating-box">
+                    <div class="average-rating">4.5</div>
+                    <div class=" average-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="reviews">230</div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="rating-bars">
+                    <div class="rating-bars-item">
+                        <div class="star-text">5 Star</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:50%;"></div>
+                        </div>
+                        <div class="percent">50%</div>
+                    </div>
+
+                    <div class="rating-bars-item">
+                        <div class="star-text">4 Star</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:30%;"></div>
+                        </div>
+                        <div class="percent">30%</div>
+                    </div>
+
+                    <div class="rating-bars-item">
+                        <div class="star-text">3 Star</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:10%;"></div>
+                        </div>
+                        <div class="percent">10%</div>
+                    </div>
+
+                    <div class="rating-bars-item">
+                        <div class="star-text">2 Star</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:7%;"></div>
+                        </div>
+                        <div class="percent">7%</div>
+                    </div>
+
+                    <div class="rating-bars-item">
+                        <div class="star-text">1 Star</div>
+                        <div class="progress">
+                            <div class="progress-bar" style="width:3%;"></div>
+                        </div>
+                        <div class="percent">3%</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+<div class="reviews-filter">
+  <h3 class="mb-4 text-capitalize">reviews</h3>
+  <form action="">
+    <div class="form-group">
+      <i class="fas fa-chevron-down select-icon"></i>
+      <select class="form-control">
+        <option value="">Toutes les Reviews</option>
+        <option value="1">1 Star</option>
+        <option value="2">2 Star</option>
+        <option value="3">3 Star</option>
+        <option value="4">4 Star</option>
+        <option value="5">5 Star</option>
+
+      </select>
+    </div>
+  </form>
+</div>
+    <div class="reviews-list">
+      <div class="reviews-item">
+        <div class="img-box">
+          <img src="img/girl3.png" alt="review img">
+
+        </div>
+        <h5>Imane Salami</h5>
+        <div class="stars-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+<span class="date">Il y'a une semaine</span>
+
+        </div>
+        <p>Great work. I learnt lot of about JAVA in this course</p>
+      </div>    <br></br>
+
+      <div class="reviews-item">
+        <div class="img-box">
+          <img src="img/girl4.png" class="imge-rounded" alt="review img">
+
+        </div>
+        <h5>Alae Knidel</h5>
+        <div class="stars-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+<span class="date">Il y'a un mois</span>
+
+        </div>
+        <p>Bonne continuation.</p>
+      </div>
+    </div>
+    <button type="button" class="btn btn-theme">plus de reviews</button>
+</div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="course-sidebar box">
+<div class="img-boxx position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
+<img src="img/6.jpg" class="w-100" alt="course img">
+<div class="play-icon">
+  <i class="fas fa-play"></i>
+</div>
+<p class="text-center">Information sur le cours</p>
+</div>
+<div class="price d-flex align-items-center mb3">
+<span class="price-old text-decoration-line-through">399</span>
+<span class="price-new">299DH</span>
+<span class="price-discount">51% off</span>
+                </div>
+            <h3 class="mb-3">Caractéristiques</h3>
+            <ul class="features-list">
+              <li>15 cours en total</li>
+              <li>Autre Caractéristiques</li>
+              <li>Autre Caractéristiques</li>
+              <li>Autre Caractéristiques</li>
+
+            </ul>
+            <div class="btn-wrap">
+              <button type="button" class="btn btn-theme btn-block"  data-bs-toggle="modal" data-bs-target="#video-modal">Voir Maintenant</button>
+            
+            </div>
+
+        </div>
+      </div>
+           
+</section>
+  
+<!--footer section start-->
+<footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3 class="footer-logo"><span>Ma</span>Tech</h3>
+              <ul>
+                <li><a href="#">À propos </a></li>
+                <li><a href="#">Nos offres </a></li>
+                <li><a href="#">Carrières </a></li>
+                <li><a href="#">Blogue </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Étudier</h3>
+              <ul>
+                <li><a href="#">Télécharger notre App </a></li>
+                <li><a href="#">Nos offres </a></li>
+                <li><a href="#">Nos principes </a></li>
+                <li><a href="#">FAQ </a></li>
+              </ul>
+            </div>
+          </div> 
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Savoir plus</h3>
+              <ul>
+                <li><a href="#">Devenir instructeur </a></li>
+                <li><a href="#">Affiliés </a></li>
+                <li><a href="#">Webinaires de formation </a></li>
+                <li><a href="#">Aide et Support </a></li>
+              </ul>
+            </div>
+          </div> 
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Nous contacter</h3>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f social-icon"></i> Facebook </a></li>
+                <li><a href="#"><i class="fab fa-instagram social-icon"></i> Instagram </a></li>
+                <li><a href="#"><i class="fab fa-youtube social-icon"></i> Youtube </a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in social-icon"></i> Linkedin </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="m-0 py-4 text-center">Copyright &copy;2023 MAJDA EL HASNAOUI</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <!--footer section end-->
+  <div class="modal fade video-modal js-course-preview-modal" id="video-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+            <i class="fas fa-times "></i>
+          </button>
+   
+          <div class="ratio ratio-16x9">
+<video controls class="js-course-preview-video">
+  <source src="video/overview.webm" type="video/webm">
+</video>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="style-switcher js-style-switcher">
+    <div class="style-switcher-toggler js-style-switcher-toggler">
+      <i class="fas fa-cog"></i>
+    </div>
+    <h3>Style Switcher</h3>
+    <div class="style-switcher-item">
+      <p class="mb-2">Les themes de couleurs</p>
+      <div class="theme-colors js-theme-colors">
+        <button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+        <button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+        <button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+        <button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+        <button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+    
+      </div>
+    </div>
+    <div class="style-switcher-item">
+      <div class="form-check form-switch">
+        <input class="form-check-input js-dark-mode" type="checkbox" role="switch" id="dark-mode">
+        <label class="form-check-label" for="dark-mode">Dark mode</label>
+      </div>
+    </div>
+    <div class="style-switcher-item">
+      <div class="form-check form-switch">
+        <input class="form-check-input js-glass-effect" type="checkbox" role="switch" id="glass-effect">
+        <label class="form-check-label" for="glass-effect">Glass effect</label>
+      </div>
+    </div>
+    
+    </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
