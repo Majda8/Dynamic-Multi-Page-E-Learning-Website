@@ -9,19 +9,6 @@ You can watch the demonstration video here:
 
 [Watch the demo video](https://github.com/Majda8/Dynamic-Multi-Page-E-Learning-Website/blob/master/demonstration.mp4?raw=true)
 
-
-## Features
-
-- **Responsive Design**: The website is designed to be fully responsive, ensuring a smooth user experience on all devices.
-- **Multimedia Content**: Includes images, videos, and stylesheets to enhance the user interface and learning experience.
-- **Course Pages**: Multiple pages are available for displaying different courses and their details.
-- **User Authentication**: Features login and sign-up pages for user authentication using PHP.
-- **Color Modes**: The website supports multiple viewing modes:
-  - **Dark Mode**: A dark color scheme for low-light environments.
-  - **Light Mode**: A traditional light color scheme for bright environments.
-  - **Glass Mode**: A translucent, "frosted glass" effect for a modern and sleek look.
-- **Color Customization**: Users can change the theme color for a personalized experience.
-
 ## Installation
 
 To run the website locally, follow these steps:
