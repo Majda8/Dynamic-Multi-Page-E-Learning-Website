@@ -5,9 +5,8 @@ This repository contains the files for a dynamic, multi-page e-learning website 
 
 ## Demonstration Video
 
-You can watch the demonstration video here:
-
-[Watch the demo video](https://github.com/Majda8/Dynamic-Multi-Page-E-Learning-Website/blob/master/demonstration.mp4?raw=true)
+Watch the demonstration video on YouTube:  
+[![Watch the video](https://img.youtube.com/vi/5jZqJ6LfGK8/0.jpg)](https://youtu.be/5jZqJ6LfGK8)
 
 ## Installation
 
