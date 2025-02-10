@@ -3,10 +3,7 @@
 
 This repository contains the files for a dynamic, multi-page e-learning website designed to provide an engaging and interactive online learning experience. The website includes various pages, such as the home page, course pages, login and sign-up forms, and more. Additionally, the website supports **Dark Mode**, **Light Mode**, and **Glass Mode**, allowing users to customize their viewing experience.
 
-## Demonstration Video
-
-Watch the demonstration video on YouTube:  
-[![Watch the video](https://img.youtube.com/vi/5jZqJ6LfGK8/0.jpg)](https://youtu.be/5jZqJ6LfGK8)
+You can access the website here: [Dynamic Multi-Page E-Learning Website](https://Majda8.github.io/Dynamic-Multi-Page-E-Learning-Website/)
 
 ## Installation
 
